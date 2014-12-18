@@ -4,6 +4,7 @@ class CreateAuthors < ActiveRecord::Migration
       t.string :name
       t.text :bio
       t.string :image_url
+      t.date :date
 
       t.timestamps
     end
