@@ -1,12 +1,9 @@
 Rails.application.routes.draw do
 
   devise_for :users
-
-  resources :tips
-
   resources :strategies
 
-  resources :authors
+
 
 
   #root to: "home#index"
